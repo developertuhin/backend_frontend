@@ -1,0 +1,70 @@
+#root {
+  max-width: 1380px;
+  margin:0 auto;
+  padding: 2rem;
+ 
+}
+
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.products{
+  display: flex;
+}
+.jokes{
+  display:flex;
+}
+.product-card{
+  border:1px solid rgb(117, 0, 78);
+  margin: 20px;
+  border-radius: 20px;
+  padding: 20px;
+}
+.product-card:hover{
+  background-color: rgb(117, 0, 78);
+  color: white;
+  transition: all 0.9s ease, width 1s linear, opacity 0.3s ease-in-out;
+}
+
+
+
+.joke-card{
+  border: 1px solid rgb(117, 0, 78);
+  margin: 20px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.joke-card:hover{
+  color:white;
+  background-color: rgb(117, 0, 78);
+  transition: all 1s ease, width 1s linear, opacity 0.3s ease-in-out;
+}
